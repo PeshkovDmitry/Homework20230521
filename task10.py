@@ -21,3 +21,4 @@ if heads > tails:
     print(f"Надо перевернуть {tails} монет")
 else:
     print(f"Надо перевернуть {heads} монет")
+    
