@@ -14,9 +14,9 @@ while count < n:
     count += 1
     m = int(input(f"Введите положение монетки {count} (1 - орел, 0 - решка): "))
     if m:
-        tails += 1
-    else:
         heads += 1
+    else:
+        tails += 1
 if heads > tails:
     print(f"Надо перевернуть {tails} монет")
 else:
