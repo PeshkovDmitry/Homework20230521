@@ -4,6 +4,6 @@
 
 n = int(input("Введите число N: "))
 pow = 0
-while 2**pow < n:
+while 2**pow <= n:
     print(2**pow)
     pow += 1
